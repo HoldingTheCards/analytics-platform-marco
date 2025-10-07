@@ -1,0 +1,8 @@
+.env
+*.key
+*.pem
+*.p12
+*.json
+**/secrets/*
+__pycache__/
+*.pbix
