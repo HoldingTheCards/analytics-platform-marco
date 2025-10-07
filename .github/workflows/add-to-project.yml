@@ -1,0 +1,15 @@
+# .github/workflows/add-to-project.yml
+name: Add new issues to AE+Cloud Project
+on:
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  add_issue_to_project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add issue to project
+        uses: actions/add-to-project@v1
+        with:
+          project-url: https://github.com/orgs/HoldingTheCards/projects/1
+          github-token: ${{ secrets.GITHUB_TOKEN }}
