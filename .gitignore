@@ -6,3 +6,6 @@
 **/secrets/*
 __pycache__/
 *.pbix
+*.pyc
+dbt/target/
+dbt/dbt_packages/
