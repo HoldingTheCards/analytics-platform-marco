@@ -1,0 +1,8 @@
+# profiles.yml (Example) — nicht committen. Nutze ENV VARS wenn gewünscht.
+duck_profile:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "./data/analytics.duckdb"
+      threads: 4

@@ -1,0 +1,19 @@
+name: 'analytics_platform_marco_free'
+version: '1.0.0'
+profile: 'duck_profile'
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+seed-paths: ["seeds"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+
+models:
+  analytics_platform_marco_free:
+    +materialized: table
+    staging:
+      +materialized: view
+    core:
+      +materialized: table
+    marts:
+      +materialized: table

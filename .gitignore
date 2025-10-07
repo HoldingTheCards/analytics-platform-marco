@@ -1,11 +1,9 @@
+
+.venv/
 .env
-*.key
-*.pem
-*.p12
-*.json
-**/secrets/*
 __pycache__/
+*.duckdb
+*.db
 *.pbix
-*.pyc
 dbt/target/
 dbt/dbt_packages/

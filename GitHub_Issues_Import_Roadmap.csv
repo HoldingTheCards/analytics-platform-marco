@@ -1,0 +1,400 @@
+Title,Body,Labels,Milestone
+[P1] GitHub-Repo initialisieren + Basis-Struktur anlegen,"**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-07
+**Deliverable/Artefakt:** Repo 'analytics-platform-marco' mit Ordnern
+**KPI/Erfolgskriterium:** Repo angelegt; Readme vorhanden
+**Schätzung (h):** 1",Roadmap; Phase:Okt 2025; Prio:P1,Okt 2025 – Fundament & Setup
+"[P1] README mit Zielen, Zeitbudget, Architektur-Überblick erstellen","**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-10
+**Deliverable/Artefakt:** README.md v1
+**KPI/Erfolgskriterium:** README mit Zielbild und Meilensteinen
+**Schätzung (h):** 2",Roadmap; Phase:Okt 2025; Prio:P1,Okt 2025 – Fundament & Setup
+"[P2] Conventional Commits, PR-Template, CODEOWNERS einrichten","**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-12
+**Deliverable/Artefakt:** .github/ Ordner
+**KPI/Erfolgskriterium:** Templates aktiv
+**Schätzung (h):** 1",Roadmap; Phase:Okt 2025; Prio:P2,Okt 2025 – Fundament & Setup
+"[P1] GCP-Projekt erstellen (IAM, Service Accounts, KMS)","**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-15
+**Deliverable/Artefakt:** GCP Projekt + SA + KMS
+**KPI/Erfolgskriterium:** Least-Privilege-Rollen definiert
+**Schätzung (h):** 3",Roadmap; Phase:Okt 2025; Prio:P1,Okt 2025 – Fundament & Setup
+[P1] Budget- & Kosten-Alerts in GCP setzen,"**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-16
+**Deliverable/Artefakt:** Budget Alert
+**KPI/Erfolgskriterium:** Alert-Benachrichtigung testet positiv
+**Schätzung (h):** 1",Roadmap; Phase:Okt 2025; Prio:P1,Okt 2025 – Fundament & Setup
+[P1] BigQuery Datasets anlegen + Partitioning/Clustering testen,"**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-18
+**Deliverable/Artefakt:** bq Datasets + Part/Cluster Tabellen
+**KPI/Erfolgskriterium:** Partition/Cluster aktiv; Kostenlabel gesetzt
+**Schätzung (h):** 2",Roadmap; Phase:Okt 2025; Prio:P1,Okt 2025 – Fundament & Setup
+[P1] Public-Datensatz laden (Events/Logs) + erste Queries,"**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-20
+**Deliverable/Artefakt:** BQ Tabelle + Notebook
+**KPI/Erfolgskriterium:** 10+ Abfragen erfolgreich
+**Schätzung (h):** 2",Roadmap; Phase:Okt 2025; Prio:P1,Okt 2025 – Fundament & Setup
+[P1] Synthetische Piano-Events generieren (Schema entwerfen),"**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-22
+**Deliverable/Artefakt:** events_parquet / BQ landing
+**KPI/Erfolgskriterium:** Schema dokumentiert
+**Schätzung (h):** 2",Roadmap; Phase:Okt 2025; Prio:P1,Okt 2025 – Fundament & Setup
+[P1] SQL-Drills: JOIN/CTE/Window (täglich 30–45 min),"**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-25
+**Deliverable/Artefakt:** SQL-Notebook/Übungsordner
+**KPI/Erfolgskriterium:** 25+ Übungen abgeschlossen
+**Schätzung (h):** 6",Roadmap; Phase:Okt 2025; Prio:P1,Okt 2025 – Fundament & Setup
+"[P2] Query-Performance: EXPLAIN, Denormalisierung vs. Star","**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-27
+**Deliverable/Artefakt:** Cheatsheet Performance
+**KPI/Erfolgskriterium:** 3 Performance-Gewinne dokumentiert
+**Schätzung (h):** 2",Roadmap; Phase:Okt 2025; Prio:P2,Okt 2025 – Fundament & Setup
+[P2] Kosten-Guidelines & Naming/Labeling-Standards,"**Phase:** Okt 2025 – Fundament & Setup
+**Monat:** 2025-10
+**Fällig bis:** 2025-10-31
+**Deliverable/Artefakt:** Guideline-Dokument
+**KPI/Erfolgskriterium:** Dokument im Repo
+**Schätzung (h):** 1",Roadmap; Phase:Okt 2025; Prio:P2,Okt 2025 – Fundament & Setup
+"[P1] Star-Schema skizzieren: fact_events, dim_session, dim_user, dim_content","**Phase:** Nov 2025 – Modellierung & dbt
+**Monat:** 2025-11
+**Fällig bis:** 2025-11-03
+**Deliverable/Artefakt:** Schema-Diagramm
+**KPI/Erfolgskriterium:** Abnahme der Entitäten/Keys
+**Schätzung (h):** 2
+**Abhängigkeiten:** BQE Tabellen vorhanden",Roadmap; Phase:Nov 2025; Prio:P1,Nov 2025 – Modellierung & dbt
+"[P1] dbt Projekt initialisieren (sources, profiles)","**Phase:** Nov 2025 – Modellierung & dbt
+**Monat:** 2025-11
+**Fällig bis:** 2025-11-05
+**Deliverable/Artefakt:** dbt Projektstruktur
+**KPI/Erfolgskriterium:** dbt run funktioniert
+**Schätzung (h):** 2",Roadmap; Phase:Nov 2025; Prio:P1,Nov 2025 – Modellierung & dbt
+[P1] Staging-Modelle bauen (Bronze → Silver),"**Phase:** Nov 2025 – Modellierung & dbt
+**Monat:** 2025-11
+**Fällig bis:** 2025-11-10
+**Deliverable/Artefakt:** models/staging/*
+**KPI/Erfolgskriterium:** Alle Pflichtfelder gecastet/benannt
+**Schätzung (h):** 4",Roadmap; Phase:Nov 2025; Prio:P1,Nov 2025 – Modellierung & dbt
+[P1] Core/Marts-Modelle + Materialisierung (table/incremental),"**Phase:** Nov 2025 – Modellierung & dbt
+**Monat:** 2025-11
+**Fällig bis:** 2025-11-14
+**Deliverable/Artefakt:** models/core, marts
+**KPI/Erfolgskriterium:** Inkrementelle Loads laufen
+**Schätzung (h):** 4",Roadmap; Phase:Nov 2025; Prio:P1,Nov 2025 – Modellierung & dbt
+[P1] dbt Tests: not_null/unique/relationships/accepted_values,"**Phase:** Nov 2025 – Modellierung & dbt
+**Monat:** 2025-11
+**Fällig bis:** 2025-11-17
+**Deliverable/Artefakt:** tests/*.yml
+**KPI/Erfolgskriterium:** ≥40 Tests grün
+**Schätzung (h):** 3",Roadmap; Phase:Nov 2025; Prio:P1,Nov 2025 – Modellierung & dbt
+[P1] dbt Docs + Semantic Layer (Metriken) generieren,"**Phase:** Nov 2025 – Modellierung & dbt
+**Monat:** 2025-11
+**Fällig bis:** 2025-11-20
+**Deliverable/Artefakt:** dbt docs artefakt
+**KPI/Erfolgskriterium:** Docs baubar & erreichbar
+**Schätzung (h):** 2",Roadmap; Phase:Nov 2025; Prio:P1,Nov 2025 – Modellierung & dbt
+[P2] sqlfluff Linting + Pre-commit einführen,"**Phase:** Nov 2025 – Modellierung & dbt
+**Monat:** 2025-11
+**Fällig bis:** 2025-11-22
+**Deliverable/Artefakt:** sqlfluff.ini + hooks
+**KPI/Erfolgskriterium:** CI schlägt bei Verstößen an
+**Schätzung (h):** 2",Roadmap; Phase:Nov 2025; Prio:P2,Nov 2025 – Modellierung & dbt
+"[P2] Seeds/Lookups (UTM, Channels) hinzufügen","**Phase:** Nov 2025 – Modellierung & dbt
+**Monat:** 2025-11
+**Fällig bis:** 2025-11-28
+**Deliverable/Artefakt:** seeds/*.csv
+**KPI/Erfolgskriterium:** Seeds in Models referenziert
+**Schätzung (h):** 1",Roadmap; Phase:Nov 2025; Prio:P2,Nov 2025 – Modellierung & dbt
+[P1] dbt Build in GitHub Actions (einfacher CI-Job),"**Phase:** Nov 2025 – Modellierung & dbt
+**Monat:** 2025-11
+**Fällig bis:** 2025-11-30
+**Deliverable/Artefakt:** .github/workflows/dbt.yml
+**KPI/Erfolgskriterium:** Build & Tests laufen grün
+**Schätzung (h):** 2",Roadmap; Phase:Nov 2025; Prio:P1,Nov 2025 – Modellierung & dbt
+[P1] Orchestrator wählen (Airflow/Composer oder Prefect),"**Phase:** Dez 2025 – Orchestrierung & Data Quality
+**Monat:** 2025-12
+**Fällig bis:** 2025-12-05
+**Deliverable/Artefakt:** Entscheidungsnotiz
+**KPI/Erfolgskriterium:** Tool & Kosten bewertet
+**Schätzung (h):** 1",Roadmap; Phase:Dez 2025; Prio:P1,Dez 2025 – Orchestrierung & Data Quality
+[P1] DAG: Ingest → Staging → dbt build → Tests → Docs Publish,"**Phase:** Dez 2025 – Orchestrierung & Data Quality
+**Monat:** 2025-12
+**Fällig bis:** 2025-12-10
+**Deliverable/Artefakt:** orchestration/dags/*
+**KPI/Erfolgskriterium:** Täglicher Run erfolgreich
+**Schätzung (h):** 4",Roadmap; Phase:Dez 2025; Prio:P1,Dez 2025 – Orchestrierung & Data Quality
+[P2] Great Expectations für Ingestion-Checks einführen,"**Phase:** Dez 2025 – Orchestrierung & Data Quality
+**Monat:** 2025-12
+**Fällig bis:** 2025-12-12
+**Deliverable/Artefakt:** dq/expectations/*
+**KPI/Erfolgskriterium:** Pflichtfelder/Range geprüft
+**Schätzung (h):** 3",Roadmap; Phase:Dez 2025; Prio:P2,Dez 2025 – Orchestrierung & Data Quality
+[P1] Slack/Email Alerting bei Fail/SLA,"**Phase:** Dez 2025 – Orchestrierung & Data Quality
+**Monat:** 2025-12
+**Fällig bis:** 2025-12-15
+**Deliverable/Artefakt:** Alert-Setup
+**KPI/Erfolgskriterium:** Benachrichtigungen getestet
+**Schätzung (h):** 1",Roadmap; Phase:Dez 2025; Prio:P1,Dez 2025 – Orchestrierung & Data Quality
+[P2] Docs Publish automatisieren (Artefakt/Pages),"**Phase:** Dez 2025 – Orchestrierung & Data Quality
+**Monat:** 2025-12
+**Fällig bis:** 2025-12-18
+**Deliverable/Artefakt:** CI Step für Docs
+**KPI/Erfolgskriterium:** Docs nach jedem Run aktualisiert
+**Schätzung (h):** 1",Roadmap; Phase:Dez 2025; Prio:P2,Dez 2025 – Orchestrierung & Data Quality
+[P2] Orchestrierungs- & SLA-Diagramm zeichnen,"**Phase:** Dez 2025 – Orchestrierung & Data Quality
+**Monat:** 2025-12
+**Fällig bis:** 2025-12-22
+**Deliverable/Artefakt:** Diagramm (PNG/Mermaid)
+**KPI/Erfolgskriterium:** SLA & Ownership klar
+**Schätzung (h):** 1",Roadmap; Phase:Dez 2025; Prio:P2,Dez 2025 – Orchestrierung & Data Quality
+[P2] Power BI Refresh Automatisierung (Skript/Webhook),"**Phase:** Dez 2025 – Orchestrierung & Data Quality
+**Monat:** 2025-12
+**Fällig bis:** 2025-12-29
+**Deliverable/Artefakt:** Script + Anleitung
+**KPI/Erfolgskriterium:** Refresh nach Pipeline-Run
+**Schätzung (h):** 2",Roadmap; Phase:Dez 2025; Prio:P2,Dez 2025 – Orchestrierung & Data Quality
+[P1] Messkonzept & PII-Minimierung definieren,"**Phase:** Jan 2026 – Privacy & Server-Side Tracking (PoC)
+**Monat:** 2026-01
+**Fällig bis:** 2026-01-05
+**Deliverable/Artefakt:** Dokument + Tabellen
+**KPI/Erfolgskriterium:** Pflicht-/Optionalfelder festgelegt
+**Schätzung (h):** 3",Roadmap; Phase:Jan 2026; Prio:P1,Jan 2026 – Privacy & Server-Side Tracking (PoC)
+[P1] Consent-Flows & Purpose-Map modellieren,"**Phase:** Jan 2026 – Privacy & Server-Side Tracking (PoC)
+**Monat:** 2026-01
+**Fällig bis:** 2026-01-08
+**Deliverable/Artefakt:** Flow-Diagramm
+**KPI/Erfolgskriterium:** Consent-Gates identifiziert
+**Schätzung (h):** 2",Roadmap; Phase:Jan 2026; Prio:P1,Jan 2026 – Privacy & Server-Side Tracking (PoC)
+[P1] Serverseitigen Collector (Cloud Run/Function) implementieren,"**Phase:** Jan 2026 – Privacy & Server-Side Tracking (PoC)
+**Monat:** 2026-01
+**Fällig bis:** 2026-01-15
+**Deliverable/Artefakt:** collector/ Code
+**KPI/Erfolgskriterium:** Events landen in BQ Landing
+**Schätzung (h):** 6",Roadmap; Phase:Jan 2026; Prio:P1,Jan 2026 – Privacy & Server-Side Tracking (PoC)
+[P2] Validierung & Idempotenz (Retry/Backoff) einbauen,"**Phase:** Jan 2026 – Privacy & Server-Side Tracking (PoC)
+**Monat:** 2026-01
+**Fällig bis:** 2026-01-18
+**Deliverable/Artefakt:** Tests + Logs
+**KPI/Erfolgskriterium:** Duplikate unter Kontrolle
+**Schätzung (h):** 3
+**Abhängigkeiten:** Collector implementiert",Roadmap; Phase:Jan 2026; Prio:P2,Jan 2026 – Privacy & Server-Side Tracking (PoC)
+[P1] Vergleich client vs. server (Qualität/Latenz/Kosten),"**Phase:** Jan 2026 – Privacy & Server-Side Tracking (PoC)
+**Monat:** 2026-01
+**Fällig bis:** 2026-01-22
+**Deliverable/Artefakt:** Vergleichstabelle
+**KPI/Erfolgskriterium:** Mind. 3 Kennzahlen je Pfad
+**Schätzung (h):** 2",Roadmap; Phase:Jan 2026; Prio:P1,Jan 2026 – Privacy & Server-Side Tracking (PoC)
+[P1] Privacy/Governance-Dokument fertigstellen,"**Phase:** Jan 2026 – Privacy & Server-Side Tracking (PoC)
+**Monat:** 2026-01
+**Fällig bis:** 2026-01-25
+**Deliverable/Artefakt:** Policy-Dokument
+**KPI/Erfolgskriterium:** Review abgeschlossen
+**Schätzung (h):** 2",Roadmap; Phase:Jan 2026; Prio:P1,Jan 2026 – Privacy & Server-Side Tracking (PoC)
+"[P1] GitHub Actions: Linting (sqlfluff), dbt build, Tests, Docs","**Phase:** Feb 2026 – CI/CD, Kosten, Sicherheit
+**Monat:** 2026-02
+**Fällig bis:** 2026-02-05
+**Deliverable/Artefakt:** CI Workflow v2
+**KPI/Erfolgskriterium:** PR-Checks Pflicht
+**Schätzung (h):** 3",Roadmap; Phase:Feb 2026; Prio:P1,"Feb 2026 – CI/CD, Kosten, Sicherheit"
+"[P2] Materialisierungen optimieren (incremental, table)","**Phase:** Feb 2026 – CI/CD, Kosten, Sicherheit
+**Monat:** 2026-02
+**Fällig bis:** 2026-02-10
+**Deliverable/Artefakt:** dbt Configs
+**KPI/Erfolgskriterium:** Build-Zeit/Kosten verringert
+**Schätzung (h):** 2",Roadmap; Phase:Feb 2026; Prio:P2,"Feb 2026 – CI/CD, Kosten, Sicherheit"
+[P3] BigQuery Slots/Autoscaling evaluieren,"**Phase:** Feb 2026 – CI/CD, Kosten, Sicherheit
+**Monat:** 2026-02
+**Fällig bis:** 2026-02-12
+**Deliverable/Artefakt:** Entscheidungsnotiz
+**KPI/Erfolgskriterium:** Kosten/Nutzen dokumentiert
+**Schätzung (h):** 1",Roadmap; Phase:Feb 2026; Prio:P3,"Feb 2026 – CI/CD, Kosten, Sicherheit"
+[P1] RLS/CLS & Masking-Policies implementieren,"**Phase:** Feb 2026 – CI/CD, Kosten, Sicherheit
+**Monat:** 2026-02
+**Fällig bis:** 2026-02-15
+**Deliverable/Artefakt:** security/policies.sql
+**KPI/Erfolgskriterium:** Policy Tests grün
+**Schätzung (h):** 3",Roadmap; Phase:Feb 2026; Prio:P1,"Feb 2026 – CI/CD, Kosten, Sicherheit"
+[P1] Secrets Rotation & Key-Management etablieren,"**Phase:** Feb 2026 – CI/CD, Kosten, Sicherheit
+**Monat:** 2026-02
+**Fällig bis:** 2026-02-18
+**Deliverable/Artefakt:** Runbook Security
+**KPI/Erfolgskriterium:** Rotation dokumentiert
+**Schätzung (h):** 2",Roadmap; Phase:Feb 2026; Prio:P1,"Feb 2026 – CI/CD, Kosten, Sicherheit"
+[P2] Kosten- & Security-Runbook schreiben,"**Phase:** Feb 2026 – CI/CD, Kosten, Sicherheit
+**Monat:** 2026-02
+**Fällig bis:** 2026-02-22
+**Deliverable/Artefakt:** Runbook
+**KPI/Erfolgskriterium:** Audit-Checklist vorhanden
+**Schätzung (h):** 2",Roadmap; Phase:Feb 2026; Prio:P2,"Feb 2026 – CI/CD, Kosten, Sicherheit"
+[P1] Power BI Thin Model auf BQ-Marts anbinden,"**Phase:** Mrz 2026 – BI Enablement (Power BI)
+**Monat:** 2026-03
+**Fällig bis:** 2026-03-05
+**Deliverable/Artefakt:** PBIX (Thin)
+**KPI/Erfolgskriterium:** Verbindung stabil
+**Schätzung (h):** 2",Roadmap; Phase:Mrz 2026; Prio:P1,Mrz 2026 – BI Enablement (Power BI)
+"[P1] DAX KPI-Layer (Time Intelligence, Calc Groups)","**Phase:** Mrz 2026 – BI Enablement (Power BI)
+**Monat:** 2026-03
+**Fällig bis:** 2026-03-10
+**Deliverable/Artefakt:** Measure-Tabelle + Calc Groups
+**KPI/Erfolgskriterium:** Konsistenz mit dbt-Metriken
+**Schätzung (h):** 3",Roadmap; Phase:Mrz 2026; Prio:P1,Mrz 2026 – BI Enablement (Power BI)
+[P1] RLS für 2 Personas (Redaktion/Marketing),"**Phase:** Mrz 2026 – BI Enablement (Power BI)
+**Monat:** 2026-03
+**Fällig bis:** 2026-03-15
+**Deliverable/Artefakt:** RLS-Rollen
+**KPI/Erfolgskriterium:** Zugriffe geprüft
+**Schätzung (h):** 2",Roadmap; Phase:Mrz 2026; Prio:P1,Mrz 2026 – BI Enablement (Power BI)
+"[P1] Decision Hub bauen (Funnel, Kohorten, Attribution)","**Phase:** Mrz 2026 – BI Enablement (Power BI)
+**Monat:** 2026-03
+**Fällig bis:** 2026-03-22
+**Deliverable/Artefakt:** Dashboard + Seiten
+**KPI/Erfolgskriterium:** Stakeholder-Review bestanden
+**Schätzung (h):** 4",Roadmap; Phase:Mrz 2026; Prio:P1,Mrz 2026 – BI Enablement (Power BI)
+[P2] Dokumentation & Nutzer-Guide,"**Phase:** Mrz 2026 – BI Enablement (Power BI)
+**Monat:** 2026-03
+**Fällig bis:** 2026-03-29
+**Deliverable/Artefakt:** Readme + Kurzanleitung
+**KPI/Erfolgskriterium:** Onboarding <30 min möglich
+**Schätzung (h):** 2",Roadmap; Phase:Mrz 2026; Prio:P2,Mrz 2026 – BI Enablement (Power BI)
+[P1] Lernplan GCP Professional Data Engineer festlegen,"**Phase:** Apr 2026 – Zertifizierung & Systemdesign
+**Monat:** 2026-04
+**Fällig bis:** 2026-04-05
+**Deliverable/Artefakt:** Study Plan
+**KPI/Erfolgskriterium:** Meilensteine definiert
+**Schätzung (h):** 1",Roadmap; Phase:Apr 2026; Prio:P1,Apr 2026 – Zertifizierung & Systemdesign
+[P1] 2 komplette Probeklausuren absolvieren,"**Phase:** Apr 2026 – Zertifizierung & Systemdesign
+**Monat:** 2026-04
+**Fällig bis:** 2026-04-12
+**Deliverable/Artefakt:** Scores/Notizen
+**KPI/Erfolgskriterium:** Bestehen >75 %
+**Schätzung (h):** 4",Roadmap; Phase:Apr 2026; Prio:P1,Apr 2026 – Zertifizierung & Systemdesign
+[P1] GCP PDE Prüfung ablegen,"**Phase:** Apr 2026 – Zertifizierung & Systemdesign
+**Monat:** 2026-04
+**Fällig bis:** 2026-04-20
+**Deliverable/Artefakt:** Zertifikat
+**KPI/Erfolgskriterium:** Bestanden ✔
+**Schätzung (h):** 3",Roadmap; Phase:Apr 2026; Prio:P1,Apr 2026 – Zertifizierung & Systemdesign
+[P2] Referenzarchitektur: Batch + Near-Realtime,"**Phase:** Apr 2026 – Zertifizierung & Systemdesign
+**Monat:** 2026-04
+**Fällig bis:** 2026-04-24
+**Deliverable/Artefakt:** 2 Diagramme
+**KPI/Erfolgskriterium:** Kosten/DR/Compliance abgewogen
+**Schätzung (h):** 2",Roadmap; Phase:Apr 2026; Prio:P2,Apr 2026 – Zertifizierung & Systemdesign
+[P2] Entscheidungsmatrix (Kosten/Komplexität/Compliance),"**Phase:** Apr 2026 – Zertifizierung & Systemdesign
+**Monat:** 2026-04
+**Fällig bis:** 2026-04-28
+**Deliverable/Artefakt:** Matrix-Dokument
+**KPI/Erfolgskriterium:** Trade-offs transparent
+**Schätzung (h):** 1",Roadmap; Phase:Apr 2026; Prio:P2,Apr 2026 – Zertifizierung & Systemdesign
+[P1] Pub/Sub → BigQuery Streaming-Pipeline bauen,"**Phase:** Mai 2026 – Streaming/Realtime & Observability
+**Monat:** 2026-05
+**Fällig bis:** 2026-05-05
+**Deliverable/Artefakt:** streaming/ Code
+**KPI/Erfolgskriterium:** End-to-End läuft
+**Schätzung (h):** 5",Roadmap; Phase:Mai 2026; Prio:P1,Mai 2026 – Streaming/Realtime & Observability
+[P1] dbt incremental + snapshots für Events,"**Phase:** Mai 2026 – Streaming/Realtime & Observability
+**Monat:** 2026-05
+**Fällig bis:** 2026-05-10
+**Deliverable/Artefakt:** snapshots/*
+**KPI/Erfolgskriterium:** Historie konsistent
+**Schätzung (h):** 3",Roadmap; Phase:Mai 2026; Prio:P1,Mai 2026 – Streaming/Realtime & Observability
+"[P2] Observability (lineage, Freshness, Latenz)","**Phase:** Mai 2026 – Streaming/Realtime & Observability
+**Monat:** 2026-05
+**Fällig bis:** 2026-05-15
+**Deliverable/Artefakt:** observability/monitors
+**KPI/Erfolgskriterium:** SLA-Metriken sichtbar
+**Schätzung (h):** 2",Roadmap; Phase:Mai 2026; Prio:P2,Mai 2026 – Streaming/Realtime & Observability
+[P2] Chaos-Übung & Postmortem,"**Phase:** Mai 2026 – Streaming/Realtime & Observability
+**Monat:** 2026-05
+**Fällig bis:** 2026-05-20
+**Deliverable/Artefakt:** Runbook + Postmortem
+**KPI/Erfolgskriterium:** Verbesserungen abgeleitet
+**Schätzung (h):** 2",Roadmap; Phase:Mai 2026; Prio:P2,Mai 2026 – Streaming/Realtime & Observability
+"[P1] Repo-Polish: READMEs, GIF-Demos, Quickstarts","**Phase:** Jun 2026 – Portfolio & Bewerbung
+**Monat:** 2026-06
+**Fällig bis:** 2026-06-05
+**Deliverable/Artefakt:** Polished Repos
+**KPI/Erfolgskriterium:** Onboarding <15 min
+**Schätzung (h):** 3",Roadmap; Phase:Jun 2026; Prio:P1,Jun 2026 – Portfolio & Bewerbung
+[P2] Demo-Videos aufzeichnen (2–3),"**Phase:** Jun 2026 – Portfolio & Bewerbung
+**Monat:** 2026-06
+**Fällig bis:** 2026-06-10
+**Deliverable/Artefakt:** Kurzvideos
+**KPI/Erfolgskriterium:** Je 2–3 min, klarer Nutzen
+**Schätzung (h):** 3",Roadmap; Phase:Jun 2026; Prio:P2,Jun 2026 – Portfolio & Bewerbung
+[P1] 5 STAR-Cases schreiben (Impact-KPIs),"**Phase:** Jun 2026 – Portfolio & Bewerbung
+**Monat:** 2026-06
+**Fällig bis:** 2026-06-15
+**Deliverable/Artefakt:** 1‑Pager x5
+**KPI/Erfolgskriterium:** Messbarer Business-Impact
+**Schätzung (h):** 3",Roadmap; Phase:Jun 2026; Prio:P1,Jun 2026 – Portfolio & Bewerbung
+"[P1] Mock-Interviews: SQL live, Systemdesign, Storytelling","**Phase:** Jun 2026 – Portfolio & Bewerbung
+**Monat:** 2026-06
+**Fällig bis:** 2026-06-20
+**Deliverable/Artefakt:** Scores/Feedback
+**KPI/Erfolgskriterium:** Zielscore erreicht
+**Schätzung (h):** 3",Roadmap; Phase:Jun 2026; Prio:P1,Jun 2026 – Portfolio & Bewerbung
+"[P1] Bewerbungspaket finalisieren (CV, LinkedIn, Pitch, Gehaltsanker)","**Phase:** Jun 2026 – Portfolio & Bewerbung
+**Monat:** 2026-06
+**Fällig bis:** 2026-06-25
+**Deliverable/Artefakt:** Mappe komplett
+**KPI/Erfolgskriterium:** 3 Bewerbungen versendet
+**Schätzung (h):** 2",Roadmap; Phase:Jun 2026; Prio:P1,Jun 2026 – Portfolio & Bewerbung
+[P1] SQL-Drills täglich (30–45 min) [Sprint 1 (W1–4)],"**Phase:** Fast‑Start (12 Wochen)
+**Monat:** 2025-10..12
+**Fällig bis:** 2025-12-31
+**Deliverable/Artefakt:** SQL-Notebook
+**KPI/Erfolgskriterium:** 25+ Übungen
+**Schätzung (h):** 0
+**Abhängigkeiten:** Siehe Monatsaufgaben",Roadmap; Phase:Fast‑Start (12 Wochen); Prio:P1,Fast‑Start (12 Wochen)
+[P1] BQ: Partition/Cluster + Kostenlabel [Sprint 1 (W1–4)],"**Phase:** Fast‑Start (12 Wochen)
+**Monat:** 2025-10..12
+**Fällig bis:** 2025-12-31
+**Deliverable/Artefakt:** BQ Tabellen
+**KPI/Erfolgskriterium:** 2 Benchmarks
+**Schätzung (h):** 0
+**Abhängigkeiten:** Siehe Monatsaufgaben",Roadmap; Phase:Fast‑Start (12 Wochen); Prio:P1,Fast‑Start (12 Wochen)
+[P1] dbt Staging/Core/Marts + ≥40 Tests [Sprint 2 (W5–8)],"**Phase:** Fast‑Start (12 Wochen)
+**Monat:** 2025-10..12
+**Fällig bis:** 2025-12-31
+**Deliverable/Artefakt:** dbt Projekt
+**KPI/Erfolgskriterium:** Build <10 min
+**Schätzung (h):** 0
+**Abhängigkeiten:** Siehe Monatsaufgaben",Roadmap; Phase:Fast‑Start (12 Wochen); Prio:P1,Fast‑Start (12 Wochen)
+[P1] Semantic Layer: 3–5 Metriken [Sprint 2 (W5–8)],"**Phase:** Fast‑Start (12 Wochen)
+**Monat:** 2025-10..12
+**Fällig bis:** 2025-12-31
+**Deliverable/Artefakt:** metrics.yml
+**KPI/Erfolgskriterium:** Metriken konsistent
+**Schätzung (h):** 0
+**Abhängigkeiten:** Siehe Monatsaufgaben",Roadmap; Phase:Fast‑Start (12 Wochen); Prio:P1,Fast‑Start (12 Wochen)
+[P1] Orchestrierung DAG + Alerts [Sprint 3 (W9–12)],"**Phase:** Fast‑Start (12 Wochen)
+**Monat:** 2025-10..12
+**Fällig bis:** 2025-12-31
+**Deliverable/Artefakt:** DAG + Alerts
+**KPI/Erfolgskriterium:** Success-Rate ≥99 %
+**Schätzung (h):** 0
+**Abhängigkeiten:** Siehe Monatsaufgaben",Roadmap; Phase:Fast‑Start (12 Wochen); Prio:P1,Fast‑Start (12 Wochen)
+[P1] Server-Side Collector PoC + Consent-Gate [Sprint 3 (W9–12)],"**Phase:** Fast‑Start (12 Wochen)
+**Monat:** 2025-10..12
+**Fällig bis:** 2025-12-31
+**Deliverable/Artefakt:** collector/
+**KPI/Erfolgskriterium:** >99 % valide Events
+**Schätzung (h):** 0
+**Abhängigkeiten:** Siehe Monatsaufgaben",Roadmap; Phase:Fast‑Start (12 Wochen); Prio:P1,Fast‑Start (12 Wochen)
+[P1] Power BI Thin + RLS + KPI-Layer [Sprint 3 (W9–12)],"**Phase:** Fast‑Start (12 Wochen)
+**Monat:** 2025-10..12
+**Fällig bis:** 2025-12-31
+**Deliverable/Artefakt:** PBIX
+**KPI/Erfolgskriterium:** 2 Persona-Rollen
+**Schätzung (h):** 0
+**Abhängigkeiten:** Siehe Monatsaufgaben",Roadmap; Phase:Fast‑Start (12 Wochen); Prio:P1,Fast‑Start (12 Wochen)
