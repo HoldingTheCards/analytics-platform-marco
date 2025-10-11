@@ -1,0 +1,19 @@
+name: DuckDB Check
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install DuckDB
+        run: pip install duckdb
+      - name: Test DuckDB connection
+        run: python -c "import duckdb; con = duckdb.connect('data/warehouse.duckdb'); print(con.execute('SELECT 42').fetchall())"

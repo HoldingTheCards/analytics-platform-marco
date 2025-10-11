@@ -1,0 +1,142 @@
+[0m17:48:18.403966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002909D516F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002909B2542D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002909E6A5BD0>]}
+
+
+============================== 17:48:18.407644 | 45124288-1e16-4b80-b879-e0f4cca14986 ==============================
+[0m17:48:18.407644 [info ] [MainThread]: Running with dbt=1.10.13
+[0m17:48:18.408077 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init analytics_platform', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Marco\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m17:48:18.419487 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Marco\.dbt
+[0m17:48:18.421247 [debug] [MainThread]: Starter project path: C:\Users\Marco\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m17:48:18.436993 [info ] [MainThread]: 
+Your new dbt project "analytics_platform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:48:18.437551 [info ] [MainThread]: Setting up your profile.
+[0m17:48:47.298919 [info ] [MainThread]: Profile analytics_platform written to C:\Users\Marco\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m17:48:47.299662 [debug] [MainThread]: Command `dbt init` succeeded at 17:48:47.299562 after 29.04 seconds
+[0m17:48:47.299905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002909F80DE00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002909DFE3D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002909E74F020>]}
+[0m17:48:47.300156 [debug] [MainThread]: Flushing usage events
+[0m17:48:47.820683 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:48:52.001590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0BD506F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0BB2442D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0BE695BD0>]}
+
+
+============================== 17:48:52.005055 | 55543dfc-f171-4382-a0e0-717ba2e7a4f0 ==============================
+[0m17:48:52.005055 [info ] [MainThread]: Running with dbt=1.10.13
+[0m17:48:52.005514 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt debug', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': 'C:\\Users\\Marco\\.dbt'}
+[0m17:48:52.017008 [info ] [MainThread]: dbt version: 1.10.13
+[0m17:48:52.017315 [info ] [MainThread]: python version: 3.13.1
+[0m17:48:52.017593 [info ] [MainThread]: python path: C:\Users\Marco\AppData\Local\Programs\Python\Python313\python.exe
+[0m17:48:52.017858 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m17:48:52.083931 [info ] [MainThread]: Using profiles dir at C:\Users\Marco\.dbt
+[0m17:48:52.084412 [info ] [MainThread]: Using profiles.yml file at C:\Users\Marco\.dbt\profiles.yml
+[0m17:48:52.084763 [info ] [MainThread]: Using dbt_project.yml file at V:\analytics-platform-marco\dbt_project.yml
+[0m17:48:52.086733 [info ] [MainThread]: adapter type: duckdb
+[0m17:48:52.087063 [info ] [MainThread]: adapter version: 1.9.6
+[0m17:48:52.087305 [info ] [MainThread]: Configuration:
+[0m17:48:52.087489 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:48:52.087717 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:48:52.088000 [info ] [MainThread]: Required dependencies:
+[0m17:48:52.088250 [debug] [MainThread]: Executing "git --help"
+[0m17:48:52.140164 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:48:52.140489 [debug] [MainThread]: STDERR: "b''"
+[0m17:48:52.140673 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:48:52.140947 [info ] [MainThread]: Connection:
+[0m17:48:52.141223 [info ] [MainThread]:   database: dev
+[0m17:48:52.141479 [info ] [MainThread]:   schema: main
+[0m17:48:52.141731 [info ] [MainThread]:   path: dev.duckdb
+[0m17:48:52.141977 [info ] [MainThread]:   config_options: None
+[0m17:48:52.142168 [info ] [MainThread]:   extensions: None
+[0m17:48:52.142345 [info ] [MainThread]:   settings: {}
+[0m17:48:52.142514 [info ] [MainThread]:   external_root: .
+[0m17:48:52.142754 [info ] [MainThread]:   use_credential_provider: None
+[0m17:48:52.142946 [info ] [MainThread]:   attach: None
+[0m17:48:52.143119 [info ] [MainThread]:   filesystems: None
+[0m17:48:52.143307 [info ] [MainThread]:   remote: None
+[0m17:48:52.143486 [info ] [MainThread]:   plugins: None
+[0m17:48:52.143679 [info ] [MainThread]:   disable_transactions: False
+[0m17:48:52.143994 [info ] [MainThread]: Registered adapter: duckdb=1.9.6
+[0m17:48:52.301705 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m17:48:54.096220 [debug] [MainThread]: Using duckdb connection "debug"
+[0m17:48:54.096498 [debug] [MainThread]: On debug: select 1 as id
+[0m17:48:54.096669 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:48:54.108769 [debug] [MainThread]: SQL status: OK in 0.012 seconds
+[0m17:48:54.109402 [debug] [MainThread]: On debug: Close
+[0m17:48:54.109607 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:48:54.109859 [info ] [MainThread]: [31m1 check failed:[0m
+[0m17:48:54.110038 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <V:\analytics-platform-marco\dbt_project.yml> not found
+
+[0m17:48:54.110727 [debug] [MainThread]: Command `dbt debug` failed at 17:48:54.110614 after 2.25 seconds
+[0m17:48:54.110994 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:48:54.111197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0BF921810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0BF931FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0BE743350>]}
+[0m17:48:54.111461 [debug] [MainThread]: Flushing usage events
+[0m17:48:54.604884 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:53:37.804581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBF9B46F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBF78742D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBFACD5BD0>]}
+
+
+============================== 17:53:37.808111 | 7f422d3e-76c7-4aba-93a9-cbd5c2077e36 ==============================
+[0m17:53:37.808111 [info ] [MainThread]: Running with dbt=1.10.13
+[0m17:53:37.808750 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'empty': 'None', 'printer_width': '80', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\Marco\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m17:53:37.821252 [info ] [MainThread]: dbt version: 1.10.13
+[0m17:53:37.821627 [info ] [MainThread]: python version: 3.13.1
+[0m17:53:37.822163 [info ] [MainThread]: python path: C:\Users\Marco\AppData\Local\Programs\Python\Python313\python.exe
+[0m17:53:37.822676 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m17:53:37.899245 [info ] [MainThread]: Using profiles dir at C:\Users\Marco\.dbt
+[0m17:53:37.899727 [info ] [MainThread]: Using profiles.yml file at C:\Users\Marco\.dbt\profiles.yml
+[0m17:53:37.900051 [info ] [MainThread]: Using dbt_project.yml file at V:\analytics-platform-marco\dbt_project.yml
+[0m17:53:37.901751 [info ] [MainThread]: adapter type: duckdb
+[0m17:53:37.902019 [info ] [MainThread]: adapter version: 1.9.6
+[0m17:53:37.902280 [info ] [MainThread]: Configuration:
+[0m17:53:37.902487 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:53:37.902669 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:53:37.902846 [info ] [MainThread]: Required dependencies:
+[0m17:53:37.903036 [debug] [MainThread]: Executing "git --help"
+[0m17:53:37.953392 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:53:37.953704 [debug] [MainThread]: STDERR: "b''"
+[0m17:53:37.953873 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:53:37.954125 [info ] [MainThread]: Connection:
+[0m17:53:37.954353 [info ] [MainThread]:   database: dev
+[0m17:53:37.954570 [info ] [MainThread]:   schema: main
+[0m17:53:37.954824 [info ] [MainThread]:   path: dev.duckdb
+[0m17:53:37.955076 [info ] [MainThread]:   config_options: None
+[0m17:53:37.955404 [info ] [MainThread]:   extensions: None
+[0m17:53:37.955727 [info ] [MainThread]:   settings: {}
+[0m17:53:37.956014 [info ] [MainThread]:   external_root: .
+[0m17:53:37.956301 [info ] [MainThread]:   use_credential_provider: None
+[0m17:53:37.956576 [info ] [MainThread]:   attach: None
+[0m17:53:37.956898 [info ] [MainThread]:   filesystems: None
+[0m17:53:37.957180 [info ] [MainThread]:   remote: None
+[0m17:53:37.957436 [info ] [MainThread]:   plugins: None
+[0m17:53:37.957729 [info ] [MainThread]:   disable_transactions: False
+[0m17:53:37.958202 [info ] [MainThread]: Registered adapter: duckdb=1.9.6
+[0m17:53:38.087689 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m17:53:38.118717 [debug] [MainThread]: Using duckdb connection "debug"
+[0m17:53:38.119021 [debug] [MainThread]: On debug: select 1 as id
+[0m17:53:38.119180 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:53:38.137267 [debug] [MainThread]: SQL status: OK in 0.018 seconds
+[0m17:53:38.137894 [debug] [MainThread]: On debug: Close
+[0m17:53:38.138103 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:53:38.138365 [info ] [MainThread]: [31m1 check failed:[0m
+[0m17:53:38.138660 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <V:\analytics-platform-marco\dbt_project.yml> not found
+
+[0m17:53:38.139382 [debug] [MainThread]: Command `dbt debug` failed at 17:53:38.139290 after 0.49 seconds
+[0m17:53:38.139635 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:53:38.139885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBFBF91810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBFBFA1FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DBFAD87350>]}
+[0m17:53:38.140180 [debug] [MainThread]: Flushing usage events
+[0m17:53:38.651114 [debug] [MainThread]: An error was encountered while trying to flush usage events
