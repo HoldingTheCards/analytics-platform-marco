@@ -1,0 +1,43 @@
+name: Task
+description: Klar umrissene Aufgabe ohne Feature-Wunsch oder Bug
+title: "[Task] <kurzer Titel>"
+labels:
+  - chore
+assignees:
+  - marco-knieling
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Ziel
+      description: Was ist konkret zu erledigen?
+    validations:
+      required: true
+  - type: input
+    id: deliverable
+    attributes:
+      label: Deliverable/Artefakt
+      description: Welches Ergebnis soll vorliegen? (Datei, Ordner, Dokument, PR, etc.)
+      placeholder: "README.md v1; .github/ Ordner; PR #123"
+    validations:
+      required: true
+  - type: input
+    id: estimate
+    attributes:
+      label: Aufwand / Schätzung
+      placeholder: "1h, 2h, 0.5d"
+    validations:
+      required: true
+  - type: checkboxes
+    id: acceptance
+    attributes:
+      label: Akzeptanzkriterien
+      options:
+        - label: Kriterium 1
+        - label: Kriterium 2
+  - type: textarea
+    id: refs
+    attributes:
+      label: Verweise
+      description: Verlinke Issues, PRs, Docs
+      placeholder: "Relates to #123; Siehe PR #456"

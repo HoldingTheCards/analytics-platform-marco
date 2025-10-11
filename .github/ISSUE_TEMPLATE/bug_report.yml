@@ -1,0 +1,66 @@
+name: Bug Report
+description: Fehler melden, der behoben werden soll
+title: "[Bug] <kurzer Titel>"
+labels:
+  - bug
+assignees:
+  - marco-knieling
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Beschreibung
+      description: Kurze Fehlerbeschreibung
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Reproduzieren
+      description: Liste der Schritte, um den Fehler zu reproduzieren
+      placeholder: "1. …\n2. …\n3. …"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Umgebung
+      description: OS, Tool-/Runtime-Versionen, Branch/Commit
+      placeholder: "macOS 14, Python 3.11, Branch feature/x, Commit abc123"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots/Logs
+      description: Optional – relevante Log-Auszüge, Screenshots, Links
+      render: shell
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priorität
+      options:
+        - P1 (kritisch)
+        - P2
+        - P3
+      default: 1
+    validations:
+      required: true
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: Definition of Done
+      options:
+        - label: Reproduzierbar behoben
+        - label: Tests/Lint (falls vorhanden) grün
+        - label: Changelog/Docs aktualisiert (falls nötig)

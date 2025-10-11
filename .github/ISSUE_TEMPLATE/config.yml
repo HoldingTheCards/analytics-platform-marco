@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Roadmap / README
+    url: https://github.com/HoldingTheCards/analytics-platform-marco/blob/main/README.md
+    about: Bitte lies zuerst die Projektziele und Konventionen.
