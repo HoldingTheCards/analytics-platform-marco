@@ -56,11 +56,4 @@ body:
       default: 1
     validations:
       required: true
-  - type: checkboxes
-    id: dod
-    attributes:
-      label: Definition of Done
-      options:
-        - label: Reproduzierbar behoben
-        - label: Tests/Lint (falls vorhanden) grün
-        - label: Changelog/Docs aktualisiert (falls nötig)
+

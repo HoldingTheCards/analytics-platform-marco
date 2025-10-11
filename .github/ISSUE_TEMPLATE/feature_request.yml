@@ -21,14 +21,6 @@ body:
       description: Kurzbeschreibung der Funktion, User Story, In/Out of Scope.
     validations:
       required: true
-  - type: checkboxes
-    id: acceptance
-    attributes:
-      label: Akzeptanzkriterien
-      options:
-        - label: Kriterium 1
-        - label: Kriterium 2
-        - label: Kriterium 3
   - type: dropdown
     id: priority
     attributes:
@@ -51,11 +43,4 @@ body:
     attributes:
       label: Risiken / Annahmen
       placeholder: "Annahmen: …\nRisiken: …"
-  - type: checkboxes
-    id: dod
-    attributes:
-      label: Definition of Done
-      options:
-        - label: Implementiert
-        - label: Dokumentation/README aktualisiert
-        - label: Tests/Lint (falls vorhanden) grün
+

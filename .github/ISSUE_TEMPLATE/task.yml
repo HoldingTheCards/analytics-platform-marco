@@ -28,13 +28,6 @@ body:
       placeholder: "1h, 2h, 0.5d"
     validations:
       required: true
-  - type: checkboxes
-    id: acceptance
-    attributes:
-      label: Akzeptanzkriterien
-      options:
-        - label: Kriterium 1
-        - label: Kriterium 2
   - type: textarea
     id: refs
     attributes:
